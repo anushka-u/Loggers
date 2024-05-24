@@ -1,0 +1,440 @@
+2024-05-24T09:55:20.394+05:30 2024-05-24 09:55:20,394 INFO  c.l.d.LoggerDemoAppApplication:50 - [] Starting LoggerDemoAppApplication using Java 17.0.9 with PID 11632 (D:\LoggerDemo_App\target\classes started by DELL in D:\LoggerDemo_App)
+ 11632 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Starting LoggerDemoAppApplication using Java 17.0.9 with PID 11632 (D:\LoggerDemo_App\target\classes started by DELL in D:\LoggerDemo_App)
+2024-05-24T09:55:20.458+05:30 2024-05-24 09:55:20,458 INFO  c.l.d.LoggerDemoAppApplication:654 - [] No active profile set, falling back to 1 default profile: "default"
+ 11632 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T09:55:25.205+05:30 2024-05-24 09:55:25,205 INFO  o.s.b.w.e.t.TomcatWebServer:111 - [] Tomcat initialized with port 8080 (http)
+ 11632 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T09:55:25.316+05:30 2024-05-24 09:55:25,316 INFO  o.a.c.c.StandardService:173 - [] Starting service [Tomcat]
+ 11632 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T09:55:25.318+05:30 2024-05-24 09:55:25,318 INFO  o.a.c.c.StandardEngine:173 - [] Starting Servlet engine: [Apache Tomcat/10.1.24]
+ 11632 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-05-24T09:55:25.568+05:30 2024-05-24 09:55:25,568 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring embedded WebApplicationContext
+ 11632 --- [LoggerDemo_App] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T09:55:25.576+05:30 2024-05-24 09:55:25,576 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:296 - [] Root WebApplicationContext: initialization completed in 4783 ms
+ 11632 --- [LoggerDemo_App] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4783 ms
+2024-05-24T09:55:28.488+05:30 2024-05-24 09:55:28,488 INFO  o.s.b.w.e.t.TomcatWebServer:243 - [] Tomcat started on port 8080 (http) with context path '/'
+ 11632 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-05-24T09:55:28.540+05:30 2024-05-24 09:55:28,540 INFO  c.l.d.LoggerDemoAppApplication:56 - [] Started LoggerDemoAppApplication in 10.474 seconds (process running for 14.826)
+ 11632 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Started LoggerDemoAppApplication in 10.474 seconds (process running for 14.826)
+2024-05-24T09:55:29.570+05:30 2024-05-24 09:55:29,570 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 11632 --- [LoggerDemo_App] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T09:55:29.573+05:30 2024-05-24 09:55:29,573 INFO  o.s.w.s.DispatcherServlet:532 - [] Initializing Servlet 'dispatcherServlet'
+ 11632 --- [LoggerDemo_App] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T09:55:29.587+05:30 2024-05-24 09:55:29,587 INFO  o.s.w.s.DispatcherServlet:554 - [] Completed initialization in 7 ms
+ 11632 --- [LoggerDemo_App] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2024-05-24T09:56:10.340+05:30 2024-05-24 09:56:10,340 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - [] Application shutdown requested.
+ 11632 --- [LoggerDemo_App] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T09:56:15.945+05:30 2024-05-24 09:56:15,945 INFO  c.l.d.LoggerDemoAppApplication:50 - [] Starting LoggerDemoAppApplication using Java 17.0.9 with PID 1900 (D:\LoggerDemo_App\target\classes started by DELL in D:\LoggerDemo_App)
+ 1900 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Starting LoggerDemoAppApplication using Java 17.0.9 with PID 1900 (D:\LoggerDemo_App\target\classes started by DELL in D:\LoggerDemo_App)
+2024-05-24T09:56:15.956+05:30 2024-05-24 09:56:15,956 INFO  c.l.d.LoggerDemoAppApplication:654 - [] No active profile set, falling back to 1 default profile: "default"
+ 1900 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T09:56:19.127+05:30 2024-05-24 09:56:19,127 INFO  o.s.b.w.e.t.TomcatWebServer:111 - [] Tomcat initialized with port 8080 (http)
+ 1900 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T09:56:19.157+05:30 2024-05-24 09:56:19,157 INFO  o.a.c.c.StandardService:173 - [] Starting service [Tomcat]
+ 1900 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T09:56:19.158+05:30 2024-05-24 09:56:19,158 INFO  o.a.c.c.StandardEngine:173 - [] Starting Servlet engine: [Apache Tomcat/10.1.24]
+ 1900 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-05-24T09:56:19.420+05:30 2024-05-24 09:56:19,420 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring embedded WebApplicationContext
+ 1900 --- [LoggerDemo_App] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T09:56:19.429+05:30 2024-05-24 09:56:19,429 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:296 - [] Root WebApplicationContext: initialization completed in 3334 ms
+ 1900 --- [LoggerDemo_App] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3334 ms
+2024-05-24T09:56:20.922+05:30 2024-05-24 09:56:20,922 INFO  o.s.b.w.e.t.TomcatWebServer:243 - [] Tomcat started on port 8080 (http) with context path '/'
+ 1900 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-05-24T09:56:20.953+05:30 2024-05-24 09:56:20,953 INFO  c.l.d.LoggerDemoAppApplication:56 - [] Started LoggerDemoAppApplication in 6.746 seconds (process running for 9.27)
+ 1900 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Started LoggerDemoAppApplication in 6.746 seconds (process running for 9.27)
+2024-05-24T09:56:34.087+05:30 2024-05-24 09:56:34,087 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 1900 --- [LoggerDemo_App] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T09:56:34.089+05:30 2024-05-24 09:56:34,089 INFO  o.s.w.s.DispatcherServlet:532 - [] Initializing Servlet 'dispatcherServlet'
+ 1900 --- [LoggerDemo_App] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T09:56:34.099+05:30 2024-05-24 09:56:34,099 INFO  o.s.w.s.DispatcherServlet:554 - [] Completed initialization in 2 ms
+ 1900 --- [LoggerDemo_App] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-05-24T09:56:34.362+05:30 2024-05-24 09:56:34,362 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:275 - [] Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+ 1900 --- [LoggerDemo_App] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-05-24T09:56:34.368+05:30 2024-05-24 09:56:34,368 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:120 - [] Writing ["logger level is set to debug"]
+ 1900 --- [LoggerDemo_App] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing ["logger level is set to debug"]
+2024-05-24T09:56:34.398+05:30 2024-05-24 09:56:34,398 DEBUG o.s.w.s.DispatcherServlet:1138 - [] Completed 200 OK
+ 1900 --- [LoggerDemo_App] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-24T09:56:43.788+05:30 2024-05-24 09:56:43,788 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(1)-127.0.0.1: (port 64190) connection closed
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(1)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-127.0.0.1: (port 64190) connection closed
+2024-05-24T09:56:43.788+05:30 2024-05-24 09:56:43,788 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(4)-127.0.0.1: (port 64190) connection closed
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(4)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(4)-127.0.0.1: (port 64190) connection closed
+2024-05-24T09:56:43.788+05:30 2024-05-24 09:56:43,788 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(3)-127.0.0.1: (port 64190) connection closed
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(3)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(3)-127.0.0.1: (port 64190) connection closed
+2024-05-24T09:56:43.789+05:30 2024-05-24 09:56:43,789 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(4)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64199,localport=64190]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(4)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(4)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64199,localport=64190]
+2024-05-24T09:56:43.790+05:30 2024-05-24 09:56:43,790 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(3)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64200,localport=64190]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(3)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(3)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64200,localport=64190]
+2024-05-24T09:56:43.790+05:30 2024-05-24 09:56:43,790 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(4)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64199,localport=64190]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(4)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(4)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64199,localport=64190]
+2024-05-24T09:56:43.791+05:30 2024-05-24 09:56:43,791 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(3)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64200,localport=64190]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(3)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(3)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64200,localport=64190]
+2024-05-24T09:56:43.789+05:30 2024-05-24 09:56:43,789 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(1)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64197,localport=64190]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(1)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64197,localport=64190]
+2024-05-24T09:56:43.792+05:30 2024-05-24 09:56:43,792 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(1)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64197,localport=64190]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(1)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64197,localport=64190]
+2024-05-24T09:56:43.792+05:30 2024-05-24 09:56:43,792 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(5)-127.0.0.1: (port 64190) connection closed
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(5)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(5)-127.0.0.1: (port 64190) connection closed
+2024-05-24T09:56:43.793+05:30 2024-05-24 09:56:43,793 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(5)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64201,localport=64190]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(5)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(5)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64201,localport=64190]
+2024-05-24T09:56:43.794+05:30 2024-05-24 09:56:43,794 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(5)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64201,localport=64190]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(5)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(5)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64201,localport=64190]
+2024-05-24T09:56:43.834+05:30 2024-05-24 09:56:43,834 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(6)-127.0.0.1: (port 64195) connection closed
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(6)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(6)-127.0.0.1: (port 64195) connection closed
+2024-05-24T09:56:43.834+05:30 2024-05-24 09:56:43,834 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(2)-127.0.0.1: (port 64195) connection closed
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(2)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(2)-127.0.0.1: (port 64195) connection closed
+2024-05-24T09:56:43.834+05:30 2024-05-24 09:56:43,834 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(7)-127.0.0.1: (port 64195) connection closed
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(7)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(7)-127.0.0.1: (port 64195) connection closed
+2024-05-24T09:56:43.835+05:30 2024-05-24 09:56:43,835 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(6)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64202,localport=64195]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(6)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(6)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64202,localport=64195]
+2024-05-24T09:56:43.835+05:30 2024-05-24 09:56:43,835 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(7)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64203,localport=64195]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(7)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(7)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64203,localport=64195]
+2024-05-24T09:56:43.835+05:30 2024-05-24 09:56:43,835 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(2)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64198,localport=64195]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(2)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(2)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64198,localport=64195]
+2024-05-24T09:56:43.836+05:30 2024-05-24 09:56:43,836 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(7)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64203,localport=64195]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(7)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(7)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64203,localport=64195]
+2024-05-24T09:56:43.836+05:30 2024-05-24 09:56:43,836 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(6)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64202,localport=64195]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(6)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(6)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64202,localport=64195]
+2024-05-24T09:56:43.836+05:30 2024-05-24 09:56:43,836 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(2)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64198,localport=64195]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(2)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(2)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64198,localport=64195]
+2024-05-24T09:57:13.904+05:30 2024-05-24 09:57:13,904 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(8)-127.0.0.1: accepted socket from [127.0.0.1:64231]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(8)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(8)-127.0.0.1: accepted socket from [127.0.0.1:64231]
+2024-05-24T09:57:13.906+05:30 2024-05-24 09:57:13,906 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(8)-127.0.0.1: (port 64195) op = 80
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(8)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(8)-127.0.0.1: (port 64195) op = 80
+2024-05-24T09:57:13.907+05:30 2024-05-24 09:57:13,907 DEBUG j.m.r.rmi:230 - [] connectionId=rmi://127.0.0.1  1
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(8)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
+2024-05-24T09:57:28.909+05:30 2024-05-24 09:57:28,909 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(8)-127.0.0.1: (port 64195) connection closed
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(8)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(8)-127.0.0.1: (port 64195) connection closed
+2024-05-24T09:57:28.910+05:30 2024-05-24 09:57:28,910 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(8)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64231,localport=64195]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(8)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(8)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64231,localport=64195]
+2024-05-24T09:57:28.911+05:30 2024-05-24 09:57:28,911 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(8)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64231,localport=64195]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(8)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(8)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64231,localport=64195]
+2024-05-24T09:58:13.916+05:30 2024-05-24 09:58:13,916 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(9)-127.0.0.1: accepted socket from [127.0.0.1:64248]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(9)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(9)-127.0.0.1: accepted socket from [127.0.0.1:64248]
+2024-05-24T09:58:13.920+05:30 2024-05-24 09:58:13,920 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(9)-127.0.0.1: (port 64195) op = 80
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(9)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(9)-127.0.0.1: (port 64195) op = 80
+2024-05-24T09:58:13.924+05:30 2024-05-24 09:58:13,924 DEBUG j.m.r.rmi:230 - [] connectionId=rmi://127.0.0.1  1
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(9)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
+2024-05-24T09:58:28.934+05:30 2024-05-24 09:58:28,934 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(9)-127.0.0.1: (port 64195) connection closed
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(9)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(9)-127.0.0.1: (port 64195) connection closed
+2024-05-24T09:58:28.935+05:30 2024-05-24 09:58:28,935 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(9)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64248,localport=64195]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(9)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(9)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64248,localport=64195]
+2024-05-24T09:58:28.937+05:30 2024-05-24 09:58:28,937 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(9)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64248,localport=64195]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(9)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(9)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64248,localport=64195]
+2024-05-24T09:59:13.937+05:30 2024-05-24 09:59:13,937 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(10)-127.0.0.1: accepted socket from [127.0.0.1:64264]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(10)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(10)-127.0.0.1: accepted socket from [127.0.0.1:64264]
+2024-05-24T09:59:13.939+05:30 2024-05-24 09:59:13,939 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(10)-127.0.0.1: (port 64195) op = 80
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(10)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(10)-127.0.0.1: (port 64195) op = 80
+2024-05-24T09:59:13.940+05:30 2024-05-24 09:59:13,940 DEBUG j.m.r.rmi:230 - [] connectionId=rmi://127.0.0.1  1
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(10)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
+2024-05-24T09:59:28.945+05:30 2024-05-24 09:59:28,945 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(10)-127.0.0.1: (port 64195) connection closed
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(10)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(10)-127.0.0.1: (port 64195) connection closed
+2024-05-24T09:59:28.946+05:30 2024-05-24 09:59:28,946 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(10)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64264,localport=64195]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(10)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(10)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64264,localport=64195]
+2024-05-24T09:59:28.947+05:30 2024-05-24 09:59:28,947 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(10)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64264,localport=64195]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(10)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(10)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64264,localport=64195]
+2024-05-24T10:00:06.847+05:30 2024-05-24 10:00:06,847 DEBUG o.s.w.s.DispatcherServlet:120 - [] GET "/message", parameters={}
+ 1900 --- [LoggerDemo_App] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/message", parameters={}
+2024-05-24T10:00:06.843+05:30 2024-05-24 10:00:06,843 DEBUG o.a.c.h.Http11Processor:175 - [] Error parsing HTTP request header
+ 1900 --- [LoggerDemo_App] [http-nio-8080-exec-4] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1293) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1181) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:789) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:348) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:262) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2024-05-24T10:00:06.864+05:30 2024-05-24 10:00:06,864 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping:531 - [] Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+ 1900 --- [LoggerDemo_App] [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-24T10:00:06.864+05:30 2024-05-24 10:00:06,864 DEBUG o.a.c.h.Http11Processor:175 - [] Error state [CLOSE_CONNECTION_NOW] reported while processing request
+ 1900 --- [LoggerDemo_App] [http-nio-8080-exec-4] o.apache.coyote.http11.Http11Processor   : Error state [CLOSE_CONNECTION_NOW] reported while processing request
+
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1293) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1181) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:789) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:348) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:262) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2024-05-24T10:00:06.877+05:30 2024-05-24 10:00:06,877 DEBUG o.s.w.s.r.ResourceHttpRequestHandler:584 - [] Resource not found
+ 1900 --- [LoggerDemo_App] [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-05-24T10:00:06.896+05:30 2024-05-24 10:00:06,896 DEBUG o.s.w.s.m.s.DefaultHandlerExceptionResolver:705 - [] Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource message.]
+ 1900 --- [LoggerDemo_App] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource message.]
+2024-05-24T10:00:06.898+05:30 2024-05-24 10:00:06,898 DEBUG o.s.w.s.DispatcherServlet:1138 - [] Completed 404 NOT_FOUND
+ 1900 --- [LoggerDemo_App] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-05-24T10:00:06.960+05:30 2024-05-24 10:00:06,960 DEBUG o.s.w.s.DispatcherServlet:120 - [] "ERROR" dispatch for GET "/error", parameters={}
+ 1900 --- [LoggerDemo_App] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-05-24T10:00:06.966+05:30 2024-05-24 10:00:06,966 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:531 - [] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+ 1900 --- [LoggerDemo_App] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-05-24T10:00:07.043+05:30 2024-05-24 10:00:07,043 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:275 - [] Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+ 1900 --- [LoggerDemo_App] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-05-24T10:00:07.048+05:30 2024-05-24 10:00:07,048 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor:120 - [] Writing [{timestamp=Fri May 24 10:00:06 IST 2024, status=404, error=Not Found, path=/message}]
+ 1900 --- [LoggerDemo_App] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri May 24 10:00:06 IST 2024, status=404, error=Not Found, path=/message}]
+2024-05-24T10:00:07.269+05:30 2024-05-24 10:00:07,269 DEBUG o.s.w.s.DispatcherServlet:1135 - [] Exiting from "ERROR" dispatch, status 404
+ 1900 --- [LoggerDemo_App] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-05-24T10:00:13.949+05:30 2024-05-24 10:00:13,949 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(11)-127.0.0.1: accepted socket from [127.0.0.1:64292]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(11)-127.0.0.1: accepted socket from [127.0.0.1:64292]
+2024-05-24T10:00:13.952+05:30 2024-05-24 10:00:13,952 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(11)-127.0.0.1: (port 64195) op = 80
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(11)-127.0.0.1: (port 64195) op = 80
+2024-05-24T10:00:13.954+05:30 2024-05-24 10:00:13,954 DEBUG j.m.r.rmi:230 - [] connectionId=rmi://127.0.0.1  1
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
+2024-05-24T10:00:23.968+05:30 2024-05-24 10:00:23,968 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(12)-127.0.0.1: accepted socket from [127.0.0.1:64299]
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(12)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(12)-127.0.0.1: accepted socket from [127.0.0.1:64299]
+2024-05-24T10:00:23.971+05:30 2024-05-24 10:00:23,971 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(12)-127.0.0.1: (port 64190) op = 80
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(12)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(12)-127.0.0.1: (port 64190) op = 80
+2024-05-24T10:00:23.976+05:30 2024-05-24 10:00:23,976 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(12)-127.0.0.1: (port 64190) op = 84
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(12)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(12)-127.0.0.1: (port 64190) op = 84
+2024-05-24T10:00:23.977+05:30 2024-05-24 10:00:23,977 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(11)-127.0.0.1: (port 64195) op = 82
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(11)-127.0.0.1: (port 64195) op = 82
+2024-05-24T10:00:23.979+05:30 2024-05-24 10:00:23,979 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(11)-127.0.0.1: (port 64195) op = 80
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(11)-127.0.0.1: (port 64195) op = 80
+2024-05-24T10:00:23.982+05:30 2024-05-24 10:00:23,982 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(11)-127.0.0.1: (port 64195) op = 80
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(11)-127.0.0.1: (port 64195) op = 80
+2024-05-24T10:00:23.983+05:30 2024-05-24 10:00:23,983 DEBUG s.r.loader:228 - [] RMI TCP Connection(11)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@15c0057f
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(11)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@15c0057f
+2024-05-24T10:00:23.984+05:30 2024-05-24 10:00:23,984 DEBUG s.r.loader:228 - [] RMI TCP Connection(11)-127.0.0.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@15c0057f
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(11)-127.0.0.1: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@15c0057f
+2024-05-24T10:00:23.986+05:30 2024-05-24 10:00:23,986 DEBUG s.r.loader:228 - [] RMI TCP Connection(11)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@15c0057f
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(11)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@15c0057f
+2024-05-24T10:00:23.987+05:30 2024-05-24 10:00:23,987 DEBUG s.r.loader:228 - [] RMI TCP Connection(11)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@15c0057f
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(11)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@15c0057f
+2024-05-24T10:00:23.988+05:30 2024-05-24 10:00:23,988 DEBUG s.r.loader:228 - [] RMI TCP Connection(11)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@15c0057f
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(11)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@15c0057f
+2024-05-24T10:00:23.989+05:30 2024-05-24 10:00:23,989 DEBUG s.r.loader:228 - [] RMI TCP Connection(11)-127.0.0.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@15c0057f
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(11)-127.0.0.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@15c0057f
+2024-05-24T10:00:23.994+05:30 2024-05-24 10:00:23,994 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(11)-127.0.0.1: (port 64195) op = 84
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(11)-127.0.0.1: (port 64195) op = 84
+2024-05-24T10:00:23.994+05:30 2024-05-24 10:00:23,994 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(11)-127.0.0.1: (port 64195) op = 80
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(11)-127.0.0.1: (port 64195) op = 80
+2024-05-24T10:00:23.996+05:30 2024-05-24 10:00:23,996 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(11)-127.0.0.1: (port 64195) op = 80
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(11)-127.0.0.1: (port 64195) op = 80
+2024-05-24T10:00:23.997+05:30 2024-05-24 10:00:23,997 DEBUG s.r.loader:228 - [] RMI TCP Connection(11)-127.0.0.1: name = "javax.management.ObjectName", codebase = ""
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(11)-127.0.0.1: name = "javax.management.ObjectName", codebase = ""
+2024-05-24T10:00:23.998+05:30 2024-05-24 10:00:23,998 DEBUG s.r.loader:228 - [] RMI TCP Connection(11)-127.0.0.1: name = "java.rmi.MarshalledObject", codebase = ""
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] sun.rmi.loader                           : RMI TCP Connection(11)-127.0.0.1: name = "java.rmi.MarshalledObject", codebase = ""
+2024-05-24T10:00:23.999+05:30 2024-05-24 10:00:23,999 DEBUG j.m.r.rmi:230 - [] connectionId=rmi://127.0.0.1  6 unwrapping params with MBean extended ClassLoader.
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  6 unwrapping params with MBean extended ClassLoader.
+2024-05-24T10:00:24.001+05:30 2024-05-24 10:00:24,001 DEBUG j.m.r.rmi:230 - [] connectionId=rmi://127.0.0.1  6, name=org.springframework.boot:type=Admin,name=SpringApplication, operationName=shutdown, signature=null
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  6, name=org.springframework.boot:type=Admin,name=SpringApplication, operationName=shutdown, signature=null
+2024-05-24T10:00:24.002+05:30 2024-05-24 10:00:24,002 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - [] Application shutdown requested.
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T10:00:24.004+05:30 2024-05-24 10:00:24,004 DEBUG o.s.b.a.ApplicationAvailabilityBean:77 - [] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2024-05-24T10:00:24.005+05:30 2024-05-24 10:00:24,005 DEBUG o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:1125 - [] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73db4768, started on Fri May 24 09:56:16 IST 2024
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@73db4768, started on Fri May 24 09:56:16 IST 2024
+2024-05-24T10:00:24.011+05:30 2024-05-24 10:00:24,011 DEBUG o.s.c.s.DefaultLifecycleProcessor:480 - [] Stopping beans in phase 2147483647
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2024-05-24T10:00:24.013+05:30 2024-05-24 10:00:24,013 DEBUG o.s.c.s.DefaultLifecycleProcessor:352 - [] Bean 'applicationTaskExecutor' completed its stop procedure
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Bean 'applicationTaskExecutor' completed its stop procedure
+2024-05-24T10:00:24.014+05:30 2024-05-24 10:00:24,014 DEBUG o.s.c.s.DefaultLifecycleProcessor:480 - [] Stopping beans in phase 2147482623
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147482623
+2024-05-24T10:00:24.016+05:30 2024-05-24 10:00:24,016 DEBUG o.s.c.s.DefaultLifecycleProcessor:352 - [] Bean 'webServerGracefulShutdown' completed its stop procedure
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerGracefulShutdown' completed its stop procedure
+2024-05-24T10:00:24.017+05:30 2024-05-24 10:00:24,017 DEBUG o.s.c.s.DefaultLifecycleProcessor:480 - [] Stopping beans in phase 2147481599
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147481599
+2024-05-24T10:00:24.053+05:30 2024-05-24 10:00:24,053 DEBUG o.s.c.s.DefaultLifecycleProcessor:352 - [] Bean 'webServerStartStop' completed its stop procedure
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Bean 'webServerStartStop' completed its stop procedure
+2024-05-24T10:00:24.055+05:30 2024-05-24 10:00:24,055 DEBUG o.s.c.s.DefaultLifecycleProcessor:480 - [] Stopping beans in phase -2147483647
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase -2147483647
+2024-05-24T10:00:24.056+05:30 2024-05-24 10:00:24,056 DEBUG o.s.c.s.DefaultLifecycleProcessor:352 - [] Bean 'springBootLoggingLifecycle' completed its stop procedure
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] o.s.c.support.DefaultLifecycleProcessor  : Bean 'springBootLoggingLifecycle' completed its stop procedure
+2024-05-24T10:00:24.059+05:30 2024-05-24 10:00:24,059 DEBUG o.s.j.e.a.AnnotationMBeanExporter:468 - [] Unregistering JMX-exposed beans on shutdown
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2024-05-24T10:00:24.061+05:30 2024-05-24 10:00:24,061 DEBUG o.s.s.c.ThreadPoolTaskExecutor:328 - [] Shutting down ExecutorService 'applicationTaskExecutor'
+ 1900 --- [LoggerDemo_App] [RMI TCP Connection(11)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-05-24T10:00:29.126+05:30 2024-05-24 10:00:29,126 INFO  c.l.d.LoggerDemoAppApplication:50 - [] Starting LoggerDemoAppApplication using Java 17.0.9 with PID 1692 (D:\LoggerDemo_App\target\classes started by DELL in D:\LoggerDemo_App)
+ 1692 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Starting LoggerDemoAppApplication using Java 17.0.9 with PID 1692 (D:\LoggerDemo_App\target\classes started by DELL in D:\LoggerDemo_App)
+2024-05-24T10:00:29.167+05:30 2024-05-24 10:00:29,167 INFO  c.l.d.LoggerDemoAppApplication:654 - [] No active profile set, falling back to 1 default profile: "default"
+ 1692 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T10:00:32.154+05:30 2024-05-24 10:00:32,154 INFO  o.s.b.w.e.t.TomcatWebServer:111 - [] Tomcat initialized with port 8080 (http)
+ 1692 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T10:00:32.238+05:30 2024-05-24 10:00:32,238 INFO  o.a.c.c.StandardService:173 - [] Starting service [Tomcat]
+ 1692 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T10:00:32.241+05:30 2024-05-24 10:00:32,241 INFO  o.a.c.c.StandardEngine:173 - [] Starting Servlet engine: [Apache Tomcat/10.1.24]
+ 1692 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-05-24T10:00:32.676+05:30 2024-05-24 10:00:32,676 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring embedded WebApplicationContext
+ 1692 --- [LoggerDemo_App] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T10:00:32.680+05:30 2024-05-24 10:00:32,680 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:296 - [] Root WebApplicationContext: initialization completed in 3383 ms
+ 1692 --- [LoggerDemo_App] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3383 ms
+2024-05-24T10:00:34.050+05:30 2024-05-24 10:00:34,050 INFO  o.s.b.w.e.t.TomcatWebServer:243 - [] Tomcat started on port 8080 (http) with context path '/'
+ 1692 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-05-24T10:00:34.097+05:30 2024-05-24 10:00:34,097 INFO  c.l.d.LoggerDemoAppApplication:56 - [] Started LoggerDemoAppApplication in 6.537 seconds (process running for 8.73)
+ 1692 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Started LoggerDemoAppApplication in 6.537 seconds (process running for 8.73)
+2024-05-24T10:00:38.274+05:30 2024-05-24 10:00:38,274 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 1692 --- [LoggerDemo_App] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T10:00:38.277+05:30 2024-05-24 10:00:38,277 INFO  o.s.w.s.DispatcherServlet:532 - [] Initializing Servlet 'dispatcherServlet'
+ 1692 --- [LoggerDemo_App] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T10:00:38.288+05:30 2024-05-24 10:00:38,288 INFO  o.s.w.s.DispatcherServlet:554 - [] Completed initialization in 5 ms
+ 1692 --- [LoggerDemo_App] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-05-24T10:00:38.444+05:30 2024-05-24 10:00:38,444 INFO  c.l.d.c.MessageController:18 - [] [getMessage] info message
+ 1692 --- [LoggerDemo_App] [http-nio-8080-exec-3] c.l.demo.controller.MessageController    : [getMessage] info message
+2024-05-24T10:00:38.451+05:30 2024-05-24 10:00:38,451 WARN  c.l.d.c.MessageController:19 - [] [getMessage] warn message
+ 1692 --- [LoggerDemo_App] [http-nio-8080-exec-3] c.l.demo.controller.MessageController    : [getMessage] warn message
+2024-05-24T10:00:38.453+05:30 2024-05-24 10:00:38,453 ERROR c.l.d.c.MessageController:20 - [] [getMessage] error message
+ 1692 --- [LoggerDemo_App] [http-nio-8080-exec-3] c.l.demo.controller.MessageController    : [getMessage] error message
+2024-05-24T10:00:38.454+05:30 2024-05-24 10:00:38,454 TRACE c.l.d.c.MessageController:21 - [] [getMessage] trace message
+ 1692 --- [LoggerDemo_App] [http-nio-8080-exec-3] c.l.demo.controller.MessageController    : [getMessage] trace message
+2024-05-24T10:00:38.457+05:30 2024-05-24 10:00:38,457 DEBUG c.l.d.c.MessageController:22 - [] [getMessage] debug message
+ 1692 --- [LoggerDemo_App] [http-nio-8080-exec-3] c.l.demo.controller.MessageController    : [getMessage] debug message
+2024-05-24T10:01:43.768+05:30 2024-05-24 10:01:43,768 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - [] Application shutdown requested.
+ 1692 --- [LoggerDemo_App] [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T10:01:51.785+05:30 2024-05-24 10:01:51,785 INFO  c.l.d.LoggerDemoAppApplication:50 - [] Starting LoggerDemoAppApplication using Java 17.0.9 with PID 9256 (D:\LoggerDemo_App\target\classes started by DELL in D:\LoggerDemo_App)
+ 9256 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Starting LoggerDemoAppApplication using Java 17.0.9 with PID 9256 (D:\LoggerDemo_App\target\classes started by DELL in D:\LoggerDemo_App)
+2024-05-24T10:01:51.794+05:30 2024-05-24 10:01:51,794 INFO  c.l.d.LoggerDemoAppApplication:654 - [] No active profile set, falling back to 1 default profile: "default"
+ 9256 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T10:01:55.687+05:30 2024-05-24 10:01:55,687 INFO  o.s.b.w.e.t.TomcatWebServer:111 - [] Tomcat initialized with port 8080 (http)
+ 9256 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T10:01:55.758+05:30 2024-05-24 10:01:55,758 INFO  o.a.c.c.StandardService:173 - [] Starting service [Tomcat]
+ 9256 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T10:01:55.761+05:30 2024-05-24 10:01:55,761 INFO  o.a.c.c.StandardEngine:173 - [] Starting Servlet engine: [Apache Tomcat/10.1.24]
+ 9256 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-05-24T10:01:56.056+05:30 2024-05-24 10:01:56,056 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring embedded WebApplicationContext
+ 9256 --- [LoggerDemo_App] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T10:01:56.059+05:30 2024-05-24 10:01:56,059 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:296 - [] Root WebApplicationContext: initialization completed in 4137 ms
+ 9256 --- [LoggerDemo_App] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4137 ms
+2024-05-24T10:01:57.317+05:30 2024-05-24 10:01:57,317 INFO  o.s.b.w.e.t.TomcatWebServer:243 - [] Tomcat started on port 8080 (http) with context path '/'
+ 9256 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-05-24T10:01:57.373+05:30 2024-05-24 10:01:57,373 INFO  c.l.d.LoggerDemoAppApplication:56 - [] Started LoggerDemoAppApplication in 6.853 seconds (process running for 9.589)
+ 9256 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Started LoggerDemoAppApplication in 6.853 seconds (process running for 9.589)
+2024-05-24T10:02:18.423+05:30 2024-05-24 10:02:18,423 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T10:02:18.436+05:30 2024-05-24 10:02:18,436 INFO  o.s.w.s.DispatcherServlet:532 - [] Initializing Servlet 'dispatcherServlet'
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T10:02:18.461+05:30 2024-05-24 10:02:18,461 INFO  o.s.w.s.DispatcherServlet:554 - [] Completed initialization in 13 ms
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2024-05-24T10:02:18.993+05:30 2024-05-24 10:02:18,993 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:275 - [] Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-05-24T10:02:19.003+05:30 2024-05-24 10:02:19,003 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:120 - [] Writing ["logger level is set to debug"]
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["logger level is set to debug"]
+2024-05-24T10:02:19.059+05:30 2024-05-24 10:02:19,059 DEBUG o.s.w.s.DispatcherServlet:1138 - [] Completed 200 OK
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-24T10:02:20.254+05:30 2024-05-24 10:02:20,254 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(4)-127.0.0.1: (port 64353) connection closed
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(4)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(4)-127.0.0.1: (port 64353) connection closed
+2024-05-24T10:02:20.255+05:30 2024-05-24 10:02:20,255 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(3)-127.0.0.1: (port 64353) connection closed
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(3)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(3)-127.0.0.1: (port 64353) connection closed
+2024-05-24T10:02:20.255+05:30 2024-05-24 10:02:20,255 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(1)-127.0.0.1: (port 64353) connection closed
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(1)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-127.0.0.1: (port 64353) connection closed
+2024-05-24T10:02:20.254+05:30 2024-05-24 10:02:20,254 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(2)-127.0.0.1: (port 64359) connection closed
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(2)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(2)-127.0.0.1: (port 64359) connection closed
+2024-05-24T10:02:20.255+05:30 2024-05-24 10:02:20,255 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(5)-127.0.0.1: (port 64353) connection closed
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(5)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(5)-127.0.0.1: (port 64353) connection closed
+2024-05-24T10:02:20.255+05:30 2024-05-24 10:02:20,255 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(8)-127.0.0.1: (port 64359) connection closed
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(8)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(8)-127.0.0.1: (port 64359) connection closed
+2024-05-24T10:02:20.256+05:30 2024-05-24 10:02:20,256 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(6)-127.0.0.1: (port 64359) connection closed
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(6)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(6)-127.0.0.1: (port 64359) connection closed
+2024-05-24T10:02:20.256+05:30 2024-05-24 10:02:20,256 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(7)-127.0.0.1: (port 64359) connection closed
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(7)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(7)-127.0.0.1: (port 64359) connection closed
+2024-05-24T10:02:20.258+05:30 2024-05-24 10:02:20,258 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(1)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64361,localport=64353]
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(1)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64361,localport=64353]
+2024-05-24T10:02:20.258+05:30 2024-05-24 10:02:20,258 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(3)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64369,localport=64353]
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(3)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(3)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64369,localport=64353]
+2024-05-24T10:02:20.258+05:30 2024-05-24 10:02:20,258 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(2)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64362,localport=64359]
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(2)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(2)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64362,localport=64359]
+2024-05-24T10:02:20.259+05:30 2024-05-24 10:02:20,259 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(4)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64370,localport=64353]
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(4)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(4)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64370,localport=64353]
+2024-05-24T10:02:20.260+05:30 2024-05-24 10:02:20,260 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(6)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64373,localport=64359]
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(6)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(6)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64373,localport=64359]
+2024-05-24T10:02:20.294+05:30 2024-05-24 10:02:20,294 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(2)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64362,localport=64359]
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(2)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(2)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64362,localport=64359]
+2024-05-24T10:02:20.294+05:30 2024-05-24 10:02:20,294 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(4)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64370,localport=64353]
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(4)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(4)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64370,localport=64353]
+2024-05-24T10:02:20.258+05:30 2024-05-24 10:02:20,258 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(5)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64371,localport=64353]
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(5)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(5)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64371,localport=64353]
+2024-05-24T10:02:20.296+05:30 2024-05-24 10:02:20,296 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(6)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64373,localport=64359]
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(6)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(6)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64373,localport=64359]
+2024-05-24T10:02:20.260+05:30 2024-05-24 10:02:20,260 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(7)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64374,localport=64359]
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(7)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(7)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64374,localport=64359]
+2024-05-24T10:02:20.259+05:30 2024-05-24 10:02:20,259 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(8)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64372,localport=64359]
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(8)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(8)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=64372,localport=64359]
+2024-05-24T10:02:20.300+05:30 2024-05-24 10:02:20,300 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(7)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64374,localport=64359]
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(7)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(7)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64374,localport=64359]
+2024-05-24T10:02:20.265+05:30 2024-05-24 10:02:20,265 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(1)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64361,localport=64353]
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(1)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(1)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64361,localport=64353]
+2024-05-24T10:02:20.299+05:30 2024-05-24 10:02:20,299 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(5)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64371,localport=64353]
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(5)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(5)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64371,localport=64353]
+2024-05-24T10:02:20.302+05:30 2024-05-24 10:02:20,302 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(8)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64372,localport=64359]
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(8)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(8)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64372,localport=64359]
+2024-05-24T10:02:20.266+05:30 2024-05-24 10:02:20,266 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(3)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64369,localport=64353]
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(3)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(3)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=64369,localport=64353]
+2024-05-24T10:02:23.080+05:30 2024-05-24 10:02:23,080 DEBUG o.s.w.s.DispatcherServlet:120 - [] GET "/log", parameters={}
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/log", parameters={}
+2024-05-24T10:02:23.082+05:30 2024-05-24 10:02:23,082 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:531 - [] Mapped to com.logger.demo.controller.MessageController#log()
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.logger.demo.controller.MessageController#log()
+2024-05-24T10:02:23.086+05:30 2024-05-24 10:02:23,086 INFO  c.l.d.c.MessageController:18 - [] [getMessage] info message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-4] c.l.demo.controller.MessageController    : [getMessage] info message
+2024-05-24T10:02:23.087+05:30 2024-05-24 10:02:23,087 WARN  c.l.d.c.MessageController:19 - [] [getMessage] warn message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-4] c.l.demo.controller.MessageController    : [getMessage] warn message
+2024-05-24T10:02:23.089+05:30 2024-05-24 10:02:23,089 ERROR c.l.d.c.MessageController:20 - [] [getMessage] error message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-4] c.l.demo.controller.MessageController    : [getMessage] error message
+2024-05-24T10:02:23.091+05:30 2024-05-24 10:02:23,091 DEBUG c.l.d.c.MessageController:22 - [] [getMessage] debug message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-4] c.l.demo.controller.MessageController    : [getMessage] debug message
+2024-05-24T10:02:23.098+05:30 2024-05-24 10:02:23,098 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:275 - [] Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-05-24T10:02:23.099+05:30 2024-05-24 10:02:23,099 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor:120 - [] Writing ["Go TO Console to check log message"]
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing ["Go TO Console to check log message"]
+2024-05-24T10:02:23.103+05:30 2024-05-24 10:02:23,103 DEBUG o.s.w.s.DispatcherServlet:1138 - [] Completed 200 OK
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-24T10:02:50.272+05:30 2024-05-24 10:02:50,272 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(9)-127.0.0.1: accepted socket from [127.0.0.1:64402]
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(9)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(9)-127.0.0.1: accepted socket from [127.0.0.1:64402]
+2024-05-24T10:02:50.276+05:30 2024-05-24 10:02:50,276 DEBUG s.r.t.tcp:228 - [] RMI TCP Connection(9)-127.0.0.1: (port 64359) op = 80
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(9)-127.0.0.1] sun.rmi.transport.tcp                    : RMI TCP Connection(9)-127.0.0.1: (port 64359) op = 80
+2024-05-24T10:02:50.279+05:30 2024-05-24 10:02:50,279 DEBUG j.m.r.rmi:230 - [] connectionId=rmi://127.0.0.1  1
+ 9256 --- [LoggerDemo_App] [RMI TCP Connection(9)-127.0.0.1] javax.management.remote.rmi              : connectionId=rmi://127.0.0.1  1
+2024-05-24T10:02:55.271+05:30 2024-05-24 10:02:55,271 DEBUG o.s.w.s.DispatcherServlet:120 - [] GET "/changeLogLevel?level=warn", parameters={masked}
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/changeLogLevel?level=warn", parameters={masked}
+2024-05-24T10:02:55.274+05:30 2024-05-24 10:02:55,274 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping:531 - [] Mapped to com.logger.demo.controller.LogController#changeLogLevel(String, String)
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.logger.demo.controller.LogController#changeLogLevel(String, String)
+2024-05-24T10:03:00.750+05:30 2024-05-24 10:03:00,750 WARN  c.l.d.c.MessageController:19 - [] [getMessage] warn message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-3] c.l.demo.controller.MessageController    : [getMessage] warn message
+2024-05-24T10:03:00.755+05:30 2024-05-24 10:03:00,755 ERROR c.l.d.c.MessageController:20 - [] [getMessage] error message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-3] c.l.demo.controller.MessageController    : [getMessage] error message
+2024-05-24T10:06:07.005+05:30 2024-05-24 10:06:07,005 INFO  c.l.d.c.MessageController:18 - [] [getMessage] info message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-10] c.l.demo.controller.MessageController    : [getMessage] info message
+2024-05-24T10:06:07.007+05:30 2024-05-24 10:06:07,007 WARN  c.l.d.c.MessageController:19 - [] [getMessage] warn message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-10] c.l.demo.controller.MessageController    : [getMessage] warn message
+2024-05-24T10:06:07.008+05:30 2024-05-24 10:06:07,008 ERROR c.l.d.c.MessageController:20 - [] [getMessage] error message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-10] c.l.demo.controller.MessageController    : [getMessage] error message
+2024-05-24T10:06:07.012+05:30 2024-05-24 10:06:07,012 DEBUG c.l.d.c.MessageController:22 - [] [getMessage] debug message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-10] c.l.demo.controller.MessageController    : [getMessage] debug message
+2024-05-24T10:06:31.092+05:30 2024-05-24 10:06:31,092 INFO  c.l.d.c.MessageController:18 - [] [getMessage] info message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-9] c.l.demo.controller.MessageController    : [getMessage] info message
+2024-05-24T10:06:31.094+05:30 2024-05-24 10:06:31,094 WARN  c.l.d.c.MessageController:19 - [] [getMessage] warn message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-9] c.l.demo.controller.MessageController    : [getMessage] warn message
+2024-05-24T10:06:31.095+05:30 2024-05-24 10:06:31,095 ERROR c.l.d.c.MessageController:20 - [] [getMessage] error message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-9] c.l.demo.controller.MessageController    : [getMessage] error message
+2024-05-24T10:06:31.097+05:30 2024-05-24 10:06:31,097 DEBUG c.l.d.c.MessageController:22 - [] [getMessage] debug message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-9] c.l.demo.controller.MessageController    : [getMessage] debug message
+2024-05-24T10:06:48.034+05:30 2024-05-24 10:06:48,034 INFO  c.l.d.c.MessageController:18 - [] [getMessage] info message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-2] c.l.demo.controller.MessageController    : [getMessage] info message
+2024-05-24T10:06:48.035+05:30 2024-05-24 10:06:48,035 WARN  c.l.d.c.MessageController:19 - [] [getMessage] warn message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-2] c.l.demo.controller.MessageController    : [getMessage] warn message
+2024-05-24T10:06:48.040+05:30 2024-05-24 10:06:48,040 ERROR c.l.d.c.MessageController:20 - [] [getMessage] error message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-2] c.l.demo.controller.MessageController    : [getMessage] error message
+2024-05-24T10:06:48.046+05:30 2024-05-24 10:06:48,046 DEBUG c.l.d.c.MessageController:22 - [] [getMessage] debug message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-2] c.l.demo.controller.MessageController    : [getMessage] debug message
+2024-05-24T10:07:19.186+05:30 2024-05-24 10:07:19,186 INFO  c.l.d.c.MessageController:18 - [] [getMessage] info message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-4] c.l.demo.controller.MessageController    : [getMessage] info message
+2024-05-24T10:07:19.189+05:30 2024-05-24 10:07:19,189 WARN  c.l.d.c.MessageController:19 - [] [getMessage] warn message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-4] c.l.demo.controller.MessageController    : [getMessage] warn message
+2024-05-24T10:07:19.198+05:30 2024-05-24 10:07:19,198 ERROR c.l.d.c.MessageController:20 - [] [getMessage] error message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-4] c.l.demo.controller.MessageController    : [getMessage] error message
+2024-05-24T10:07:19.200+05:30 2024-05-24 10:07:19,200 TRACE c.l.d.c.MessageController:21 - [] [getMessage] trace message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-4] c.l.demo.controller.MessageController    : [getMessage] trace message
+2024-05-24T10:07:19.203+05:30 2024-05-24 10:07:19,203 DEBUG c.l.d.c.MessageController:22 - [] [getMessage] debug message
+ 9256 --- [LoggerDemo_App] [http-nio-8080-exec-4] c.l.demo.controller.MessageController    : [getMessage] debug message
