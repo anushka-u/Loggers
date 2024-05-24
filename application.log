@@ -438,3 +438,227 @@ java.io.EOFException: null
  9256 --- [LoggerDemo_App] [http-nio-8080-exec-4] c.l.demo.controller.MessageController    : [getMessage] trace message
 2024-05-24T10:07:19.203+05:30 2024-05-24 10:07:19,203 DEBUG c.l.d.c.MessageController:22 - [] [getMessage] debug message
  9256 --- [LoggerDemo_App] [http-nio-8080-exec-4] c.l.demo.controller.MessageController    : [getMessage] debug message
+2024-05-24T12:02:30.202+05:30 2024-05-24 12:02:30,202 INFO  c.l.d.LoggerDemoAppApplicationTests:50 - [] Starting LoggerDemoAppApplicationTests using Java 20.0.1 with PID 4788 (started by DELL in D:\Loggers)
+ 4788 --- [LoggerDemo_App] [main] c.l.demo.LoggerDemoAppApplicationTests   : Starting LoggerDemoAppApplicationTests using Java 20.0.1 with PID 4788 (started by DELL in D:\Loggers)
+2024-05-24T12:02:30.234+05:30 2024-05-24 12:02:30,234 INFO  c.l.d.LoggerDemoAppApplicationTests:654 - [] No active profile set, falling back to 1 default profile: "default"
+ 4788 --- [LoggerDemo_App] [main] c.l.demo.LoggerDemoAppApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T12:02:35.955+05:30 2024-05-24 12:02:35,955 INFO  c.l.d.LoggerDemoAppApplicationTests:56 - [] Started LoggerDemoAppApplicationTests in 6.878 seconds (process running for 19.083)
+ 4788 --- [LoggerDemo_App] [main] c.l.demo.LoggerDemoAppApplicationTests   : Started LoggerDemoAppApplicationTests in 6.878 seconds (process running for 19.083)
+2024-05-24T12:03:15.134+05:30 2024-05-24 12:03:15,134 INFO  c.l.d.LoggerDemoAppApplicationTests:50 - [] Starting LoggerDemoAppApplicationTests using Java 20.0.1 with PID 6164 (started by DELL in D:\Loggers)
+ 6164 --- [LoggerDemo_App] [main] c.l.demo.LoggerDemoAppApplicationTests   : Starting LoggerDemoAppApplicationTests using Java 20.0.1 with PID 6164 (started by DELL in D:\Loggers)
+2024-05-24T12:03:15.144+05:30 2024-05-24 12:03:15,144 INFO  c.l.d.LoggerDemoAppApplicationTests:654 - [] No active profile set, falling back to 1 default profile: "default"
+ 6164 --- [LoggerDemo_App] [main] c.l.demo.LoggerDemoAppApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T12:03:21.395+05:30 2024-05-24 12:03:21,395 INFO  c.l.d.LoggerDemoAppApplicationTests:56 - [] Started LoggerDemoAppApplicationTests in 7.537 seconds (process running for 12.659)
+ 6164 --- [LoggerDemo_App] [main] c.l.demo.LoggerDemoAppApplicationTests   : Started LoggerDemoAppApplicationTests in 7.537 seconds (process running for 12.659)
+2024-05-24T14:21:02.278+05:30 2024-05-24 14:21:02,278 INFO  c.l.d.LoggerDemoAppApplication:50 - [] Starting LoggerDemoAppApplication using Java 17.0.9 with PID 11296 (D:\Loggers\target\classes started by DELL in D:\Loggers)
+ 11296 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Starting LoggerDemoAppApplication using Java 17.0.9 with PID 11296 (D:\Loggers\target\classes started by DELL in D:\Loggers)
+2024-05-24T14:21:02.288+05:30 2024-05-24 14:21:02,288 INFO  c.l.d.LoggerDemoAppApplication:654 - [] No active profile set, falling back to 1 default profile: "default"
+ 11296 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T14:21:05.331+05:30 2024-05-24 14:21:05,331 INFO  o.s.b.w.e.t.TomcatWebServer:111 - [] Tomcat initialized with port 8080 (http)
+ 11296 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T14:21:05.382+05:30 2024-05-24 14:21:05,382 INFO  o.a.c.c.StandardService:173 - [] Starting service [Tomcat]
+ 11296 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T14:21:05.384+05:30 2024-05-24 14:21:05,384 INFO  o.a.c.c.StandardEngine:173 - [] Starting Servlet engine: [Apache Tomcat/10.1.24]
+ 11296 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-05-24T14:21:05.579+05:30 2024-05-24 14:21:05,579 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring embedded WebApplicationContext
+ 11296 --- [LoggerDemo_App] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T14:21:05.581+05:30 2024-05-24 14:21:05,581 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:296 - [] Root WebApplicationContext: initialization completed in 3080 ms
+ 11296 --- [LoggerDemo_App] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3080 ms
+2024-05-24T14:21:07.003+05:30 2024-05-24 14:21:07,003 INFO  o.s.b.w.e.t.TomcatWebServer:243 - [] Tomcat started on port 8080 (http) with context path '/'
+ 11296 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-05-24T14:21:07.040+05:30 2024-05-24 14:21:07,040 INFO  c.l.d.LoggerDemoAppApplication:56 - [] Started LoggerDemoAppApplication in 6.16 seconds (process running for 8.705)
+ 11296 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Started LoggerDemoAppApplication in 6.16 seconds (process running for 8.705)
+2024-05-24T14:22:04.358+05:30 2024-05-24 14:22:04,358 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 11296 --- [LoggerDemo_App] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T14:22:04.368+05:30 2024-05-24 14:22:04,368 INFO  o.s.w.s.DispatcherServlet:532 - [] Initializing Servlet 'dispatcherServlet'
+ 11296 --- [LoggerDemo_App] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T14:22:04.389+05:30 2024-05-24 14:22:04,389 INFO  o.s.w.s.DispatcherServlet:554 - [] Completed initialization in 16 ms
+ 11296 --- [LoggerDemo_App] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2024-05-24T14:22:05.002+05:30 2024-05-24 14:22:05,002 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]:175 - [] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.logger.demo.service.LogServiceI.setLogLevel(String, String)" because "this.logService" is null] with root cause
+ 11296 --- [LoggerDemo_App] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.logger.demo.service.LogServiceI.setLogLevel(String, String)" because "this.logService" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.logger.demo.service.LogServiceI.setLogLevel(String, String)" because "this.logService" is null
+	at com.logger.demo.controller.LogIController.enableLogLevel(LogIController.java:17) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2024-05-24T14:22:59.861+05:30 2024-05-24 14:22:59,861 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - [] Application shutdown requested.
+ 11296 --- [LoggerDemo_App] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T14:23:12.373+05:30 2024-05-24 14:23:12,373 INFO  c.l.d.LoggerDemoAppApplication:50 - [] Starting LoggerDemoAppApplication using Java 17.0.9 with PID 5140 (D:\Loggers\target\classes started by DELL in D:\Loggers)
+ 5140 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Starting LoggerDemoAppApplication using Java 17.0.9 with PID 5140 (D:\Loggers\target\classes started by DELL in D:\Loggers)
+2024-05-24T14:23:12.425+05:30 2024-05-24 14:23:12,425 INFO  c.l.d.LoggerDemoAppApplication:654 - [] No active profile set, falling back to 1 default profile: "default"
+ 5140 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T14:23:17.436+05:30 2024-05-24 14:23:17,436 INFO  o.s.b.w.e.t.TomcatWebServer:111 - [] Tomcat initialized with port 8080 (http)
+ 5140 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T14:23:17.557+05:30 2024-05-24 14:23:17,557 INFO  o.a.c.c.StandardService:173 - [] Starting service [Tomcat]
+ 5140 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T14:23:17.563+05:30 2024-05-24 14:23:17,563 INFO  o.a.c.c.StandardEngine:173 - [] Starting Servlet engine: [Apache Tomcat/10.1.24]
+ 5140 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-05-24T14:23:17.960+05:30 2024-05-24 14:23:17,960 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring embedded WebApplicationContext
+ 5140 --- [LoggerDemo_App] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T14:23:17.964+05:30 2024-05-24 14:23:17,964 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:296 - [] Root WebApplicationContext: initialization completed in 5240 ms
+ 5140 --- [LoggerDemo_App] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5240 ms
+2024-05-24T14:23:22.029+05:30 2024-05-24 14:23:22,029 INFO  o.s.b.w.e.t.TomcatWebServer:243 - [] Tomcat started on port 8080 (http) with context path '/'
+ 5140 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-05-24T14:23:22.095+05:30 2024-05-24 14:23:22,095 INFO  c.l.d.LoggerDemoAppApplication:56 - [] Started LoggerDemoAppApplication in 11.942 seconds (process running for 15.167)
+ 5140 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Started LoggerDemoAppApplication in 11.942 seconds (process running for 15.167)
+2024-05-24T14:23:39.884+05:30 2024-05-24 14:23:39,884 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 5140 --- [LoggerDemo_App] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T14:23:39.892+05:30 2024-05-24 14:23:39,892 INFO  o.s.w.s.DispatcherServlet:532 - [] Initializing Servlet 'dispatcherServlet'
+ 5140 --- [LoggerDemo_App] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T14:23:39.906+05:30 2024-05-24 14:23:39,906 INFO  o.s.w.s.DispatcherServlet:554 - [] Completed initialization in 6 ms
+ 5140 --- [LoggerDemo_App] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-05-24T14:23:40.048+05:30 2024-05-24 14:23:40,048 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver:247 - [] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+ 5140 --- [LoggerDemo_App] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-05-24T14:25:25.645+05:30 2024-05-24 14:25:25,645 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - [] Application shutdown requested.
+ 5140 --- [LoggerDemo_App] [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T14:25:34.877+05:30 2024-05-24 14:25:34,877 INFO  c.l.d.LoggerDemoAppApplication:50 - [] Starting LoggerDemoAppApplication using Java 17.0.9 with PID 5592 (D:\Loggers\target\classes started by DELL in D:\Loggers)
+ 5592 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Starting LoggerDemoAppApplication using Java 17.0.9 with PID 5592 (D:\Loggers\target\classes started by DELL in D:\Loggers)
+2024-05-24T14:25:34.885+05:30 2024-05-24 14:25:34,885 INFO  c.l.d.LoggerDemoAppApplication:654 - [] No active profile set, falling back to 1 default profile: "default"
+ 5592 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T14:25:37.834+05:30 2024-05-24 14:25:37,834 INFO  o.s.b.w.e.t.TomcatWebServer:111 - [] Tomcat initialized with port 8080 (http)
+ 5592 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T14:25:37.888+05:30 2024-05-24 14:25:37,888 INFO  o.a.c.c.StandardService:173 - [] Starting service [Tomcat]
+ 5592 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T14:25:37.894+05:30 2024-05-24 14:25:37,894 INFO  o.a.c.c.StandardEngine:173 - [] Starting Servlet engine: [Apache Tomcat/10.1.24]
+ 5592 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-05-24T14:25:38.114+05:30 2024-05-24 14:25:38,114 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring embedded WebApplicationContext
+ 5592 --- [LoggerDemo_App] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T14:25:38.116+05:30 2024-05-24 14:25:38,116 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:296 - [] Root WebApplicationContext: initialization completed in 3076 ms
+ 5592 --- [LoggerDemo_App] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3076 ms
+2024-05-24T14:25:40.518+05:30 2024-05-24 14:25:40,518 INFO  o.s.b.w.e.t.TomcatWebServer:243 - [] Tomcat started on port 8080 (http) with context path '/'
+ 5592 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-05-24T14:25:40.672+05:30 2024-05-24 14:25:40,672 INFO  c.l.d.LoggerDemoAppApplication:56 - [] Started LoggerDemoAppApplication in 7.08 seconds (process running for 9.868)
+ 5592 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Started LoggerDemoAppApplication in 7.08 seconds (process running for 9.868)
+2024-05-24T14:25:52.119+05:30 2024-05-24 14:25:52,119 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 5592 --- [LoggerDemo_App] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T14:25:52.122+05:30 2024-05-24 14:25:52,122 INFO  o.s.w.s.DispatcherServlet:532 - [] Initializing Servlet 'dispatcherServlet'
+ 5592 --- [LoggerDemo_App] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T14:25:52.130+05:30 2024-05-24 14:25:52,130 INFO  o.s.w.s.DispatcherServlet:554 - [] Completed initialization in 5 ms
+ 5592 --- [LoggerDemo_App] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-05-24T14:25:52.363+05:30 2024-05-24 14:25:52,363 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver:247 - [] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+ 5592 --- [LoggerDemo_App] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-05-24T14:27:45.836+05:30 2024-05-24 14:27:45,836 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver:247 - [] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+ 5592 --- [LoggerDemo_App] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-05-24T14:33:22.820+05:30 2024-05-24 14:33:22,820 INFO  c.l.d.s.i.LogServiceIImpl:27 - [] Log level for com.logger.demo.controller.MessageController set to DEBUG
+ 5592 --- [LoggerDemo_App] [http-nio-8080-exec-7] c.l.demo.service.impl.LogServiceIImpl    : Log level for com.logger.demo.controller.MessageController set to DEBUG
+2024-05-24T14:44:13.441+05:30 2024-05-24 14:44:13,441 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver:247 - [] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'level' for method parameter type String is not present]
+ 5592 --- [LoggerDemo_App] [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'level' for method parameter type String is not present]
+2024-05-24T14:44:26.357+05:30 2024-05-24 14:44:26,357 INFO  c.l.d.s.i.LogServiceIImpl:27 - [] Log level for com.logger.demo.controller.MessageController set to OFF
+ 5592 --- [LoggerDemo_App] [http-nio-8080-exec-2] c.l.demo.service.impl.LogServiceIImpl    : Log level for com.logger.demo.controller.MessageController set to OFF
+2024-05-24T14:48:36.877+05:30 2024-05-24 14:48:36,877 INFO  c.l.d.s.i.LogServiceIImpl:27 - [] Log level for com.logger.demo.controller.MessageController set to DEBUG
+ 5592 --- [LoggerDemo_App] [http-nio-8080-exec-10] c.l.demo.service.impl.LogServiceIImpl    : Log level for com.logger.demo.controller.MessageController set to DEBUG
+2024-05-24T14:48:49.559+05:30 2024-05-24 14:48:49,559 INFO  c.l.d.c.MessageController:18 - [] [getMessage] info message
+ 5592 --- [LoggerDemo_App] [http-nio-8080-exec-1] c.l.demo.controller.MessageController    : [getMessage] info message
+2024-05-24T14:48:49.567+05:30 2024-05-24 14:48:49,567 WARN  c.l.d.c.MessageController:19 - [] [getMessage] warn message
+ 5592 --- [LoggerDemo_App] [http-nio-8080-exec-1] c.l.demo.controller.MessageController    : [getMessage] warn message
+2024-05-24T14:48:49.575+05:30 2024-05-24 14:48:49,575 ERROR c.l.d.c.MessageController:20 - [] [getMessage] error message
+ 5592 --- [LoggerDemo_App] [http-nio-8080-exec-1] c.l.demo.controller.MessageController    : [getMessage] error message
+2024-05-24T14:48:49.581+05:30 2024-05-24 14:48:49,581 DEBUG c.l.d.c.MessageController:22 - [] [getMessage] debug message
+ 5592 --- [LoggerDemo_App] [http-nio-8080-exec-1] c.l.demo.controller.MessageController    : [getMessage] debug message
+2024-05-24T16:37:22.381+05:30 2024-05-24 16:37:22,381 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - [] Application shutdown requested.
+ 5592 --- [LoggerDemo_App] [RMI TCP Connection(138)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T16:37:39.944+05:30 2024-05-24 16:37:39,944 INFO  c.l.d.LoggerDemoAppApplication:50 - [] Starting LoggerDemoAppApplication using Java 17.0.9 with PID 12724 (D:\Loggers\target\classes started by DELL in D:\Loggers)
+ 12724 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Starting LoggerDemoAppApplication using Java 17.0.9 with PID 12724 (D:\Loggers\target\classes started by DELL in D:\Loggers)
+2024-05-24T16:37:39.953+05:30 2024-05-24 16:37:39,953 INFO  c.l.d.LoggerDemoAppApplication:654 - [] No active profile set, falling back to 1 default profile: "default"
+ 12724 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T16:37:45.036+05:30 2024-05-24 16:37:45,036 INFO  o.s.b.w.e.t.TomcatWebServer:111 - [] Tomcat initialized with port 8080 (http)
+ 12724 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T16:37:45.082+05:30 2024-05-24 16:37:45,082 INFO  o.a.c.c.StandardService:173 - [] Starting service [Tomcat]
+ 12724 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T16:37:45.083+05:30 2024-05-24 16:37:45,083 INFO  o.a.c.c.StandardEngine:173 - [] Starting Servlet engine: [Apache Tomcat/10.1.24]
+ 12724 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-05-24T16:37:45.290+05:30 2024-05-24 16:37:45,290 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring embedded WebApplicationContext
+ 12724 --- [LoggerDemo_App] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T16:37:45.295+05:30 2024-05-24 16:37:45,295 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:296 - [] Root WebApplicationContext: initialization completed in 5216 ms
+ 12724 --- [LoggerDemo_App] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5216 ms
+2024-05-24T16:37:47.112+05:30 2024-05-24 16:37:47,112 INFO  o.s.b.w.e.t.TomcatWebServer:243 - [] Tomcat started on port 8080 (http) with context path '/'
+ 12724 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-05-24T16:37:47.147+05:30 2024-05-24 16:37:47,147 INFO  c.l.d.LoggerDemoAppApplication:56 - [] Started LoggerDemoAppApplication in 8.859 seconds (process running for 12.339)
+ 12724 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Started LoggerDemoAppApplication in 8.859 seconds (process running for 12.339)
+2024-05-24T16:39:06.855+05:30 2024-05-24 16:39:06,855 INFO  c.l.d.LoggerDemoAppApplicationTests:50 - [] Starting LoggerDemoAppApplicationTests using Java 20.0.1 with PID 9108 (started by DELL in D:\Loggers)
+ 9108 --- [LoggerDemo_App] [main] c.l.demo.LoggerDemoAppApplicationTests   : Starting LoggerDemoAppApplicationTests using Java 20.0.1 with PID 9108 (started by DELL in D:\Loggers)
+2024-05-24T16:39:06.868+05:30 2024-05-24 16:39:06,868 INFO  c.l.d.LoggerDemoAppApplicationTests:654 - [] No active profile set, falling back to 1 default profile: "default"
+ 9108 --- [LoggerDemo_App] [main] c.l.demo.LoggerDemoAppApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T16:39:19.637+05:30 2024-05-24 16:39:19,637 INFO  c.l.d.LoggerDemoAppApplicationTests:56 - [] Started LoggerDemoAppApplicationTests in 15.57 seconds (process running for 28.141)
+ 9108 --- [LoggerDemo_App] [main] c.l.demo.LoggerDemoAppApplicationTests   : Started LoggerDemoAppApplicationTests in 15.57 seconds (process running for 28.141)
+2024-05-24T16:41:40.495+05:30 2024-05-24 16:41:40,495 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 12724 --- [LoggerDemo_App] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T16:41:40.521+05:30 2024-05-24 16:41:40,521 INFO  o.s.w.s.DispatcherServlet:532 - [] Initializing Servlet 'dispatcherServlet'
+ 12724 --- [LoggerDemo_App] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T16:41:40.651+05:30 2024-05-24 16:41:40,651 INFO  o.s.w.s.DispatcherServlet:554 - [] Completed initialization in 127 ms
+ 12724 --- [LoggerDemo_App] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 127 ms
+2024-05-24T16:41:52.734+05:30 2024-05-24 16:41:52,734 WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver:247 - [] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'Level' for method parameter type String is not present]
+ 12724 --- [LoggerDemo_App] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'Level' for method parameter type String is not present]
+2024-05-24T16:44:22.507+05:30 2024-05-24 16:44:22,507 INFO  c.l.d.c.LoggingController:21 - [] [Info] Logging Controller Info
+ 12724 --- [LoggerDemo_App] [http-nio-8080-exec-8] c.l.demo.controller.LoggingController    : [Info] Logging Controller Info
+2024-05-24T16:44:22.695+05:30 2024-05-24 16:44:22,695 TRACE c.l.d.c.LoggingController:22 - [] [TRACE] logging Controller Trace
+ 12724 --- [LoggerDemo_App] [http-nio-8080-exec-8] c.l.demo.controller.LoggingController    : [TRACE] logging Controller Trace
+2024-05-24T16:44:22.714+05:30 2024-05-24 16:44:22,714 ERROR c.l.d.c.LoggingController:23 - [] [Error] logging Controller Error
+ 12724 --- [LoggerDemo_App] [http-nio-8080-exec-8] c.l.demo.controller.LoggingController    : [Error] logging Controller Error
+2024-05-24T16:44:22.729+05:30 2024-05-24 16:44:22,729 DEBUG c.l.d.c.LoggingController:24 - [] [Debug] Logging Controller Debug
+ 12724 --- [LoggerDemo_App] [http-nio-8080-exec-8] c.l.demo.controller.LoggingController    : [Debug] Logging Controller Debug
+2024-05-24T16:44:22.756+05:30 2024-05-24 16:44:22,756 WARN  c.l.d.c.LoggingController:25 - [] [WARN] Logging Controller WARN
+ 12724 --- [LoggerDemo_App] [http-nio-8080-exec-8] c.l.demo.controller.LoggingController    : [WARN] Logging Controller WARN
+2024-05-24T16:44:56.289+05:30 2024-05-24 16:44:56,289 INFO  c.l.d.c.LoggingController:21 - [] [Info] Logging Controller Info
+ 12724 --- [LoggerDemo_App] [http-nio-8080-exec-1] c.l.demo.controller.LoggingController    : [Info] Logging Controller Info
+2024-05-24T16:44:56.291+05:30 2024-05-24 16:44:56,291 ERROR c.l.d.c.LoggingController:23 - [] [Error] logging Controller Error
+ 12724 --- [LoggerDemo_App] [http-nio-8080-exec-1] c.l.demo.controller.LoggingController    : [Error] logging Controller Error
+2024-05-24T16:44:56.292+05:30 2024-05-24 16:44:56,292 DEBUG c.l.d.c.LoggingController:24 - [] [Debug] Logging Controller Debug
+ 12724 --- [LoggerDemo_App] [http-nio-8080-exec-1] c.l.demo.controller.LoggingController    : [Debug] Logging Controller Debug
+2024-05-24T16:44:56.294+05:30 2024-05-24 16:44:56,294 WARN  c.l.d.c.LoggingController:25 - [] [WARN] Logging Controller WARN
+ 12724 --- [LoggerDemo_App] [http-nio-8080-exec-1] c.l.demo.controller.LoggingController    : [WARN] Logging Controller WARN
+2024-05-24T16:52:16.746+05:30 2024-05-24 16:52:16,746 INFO  c.l.d.LoggerDemoAppApplicationTests:50 - [] Starting LoggerDemoAppApplicationTests using Java 20.0.1 with PID 10880 (started by DELL in D:\Loggers)
+ 10880 --- [LoggerDemo_App] [main] c.l.demo.LoggerDemoAppApplicationTests   : Starting LoggerDemoAppApplicationTests using Java 20.0.1 with PID 10880 (started by DELL in D:\Loggers)
+2024-05-24T16:52:16.766+05:30 2024-05-24 16:52:16,766 INFO  c.l.d.LoggerDemoAppApplicationTests:654 - [] No active profile set, falling back to 1 default profile: "default"
+ 10880 --- [LoggerDemo_App] [main] c.l.demo.LoggerDemoAppApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T16:52:22.691+05:30 2024-05-24 16:52:22,691 INFO  c.l.d.LoggerDemoAppApplicationTests:56 - [] Started LoggerDemoAppApplicationTests in 7.365 seconds (process running for 11.751)
+ 10880 --- [LoggerDemo_App] [main] c.l.demo.LoggerDemoAppApplicationTests   : Started LoggerDemoAppApplicationTests in 7.365 seconds (process running for 11.751)
