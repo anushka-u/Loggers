@@ -27,12 +27,24 @@ public class LoggingController {
         return "See the logs in Console";
     }
 
+    // We can use LoggingSystem to set our loglevel at runtime:
+    /*
+    Allows for changing the logging levels of specific loggers at runtime,
+     which is particularly useful for debugging production issues without restarting the application.
+
+     loggingSystem.setLogLevel("com.example.service", LogLevel.TRACE);
+     */
+
     @GetMapping("/change-to-logLevel")
     public String changeLogLevel(@RequestParam String Level) {
         LoggingSystem loggingSystem = LoggingSystem.get(LoggingController.class.getClassLoader());
-        LogLevel logLevel = LogLevel.valueOf(Level.toUpperCase());
-        loggingSystem.setLogLevel(LoggingController.class.getName(), logLevel);
-        return "Changed loglevel to " + Level;
+        try{
+            LogLevel logLevel = LogLevel.valueOf(Level.toUpperCase());
+            loggingSystem.setLogLevel(LoggingController.class.getName(), logLevel);
+            return "Changed loglevel to " + Level;
+        }catch (IllegalArgumentException e) {
+            return "Invalid Logging Request  "+Level;
+        }  
     }
 
 }

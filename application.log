@@ -662,3 +662,87 @@ java.lang.NullPointerException: Cannot invoke "com.logger.demo.service.LogServic
  10880 --- [LoggerDemo_App] [main] c.l.demo.LoggerDemoAppApplicationTests   : No active profile set, falling back to 1 default profile: "default"
 2024-05-24T16:52:22.691+05:30 2024-05-24 16:52:22,691 INFO  c.l.d.LoggerDemoAppApplicationTests:56 - [] Started LoggerDemoAppApplicationTests in 7.365 seconds (process running for 11.751)
  10880 --- [LoggerDemo_App] [main] c.l.demo.LoggerDemoAppApplicationTests   : Started LoggerDemoAppApplicationTests in 7.365 seconds (process running for 11.751)
+2024-05-24T17:50:46.146+05:30 2024-05-24 17:50:46,146 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - [] Application shutdown requested.
+ 12724 --- [LoggerDemo_App] [RMI TCP Connection(81)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T17:51:00.373+05:30 2024-05-24 17:51:00,373 INFO  c.l.d.LoggerDemoAppApplication:50 - [] Starting LoggerDemoAppApplication using Java 17.0.9 with PID 10608 (D:\Loggers\target\classes started by DELL in D:\Loggers)
+ 10608 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Starting LoggerDemoAppApplication using Java 17.0.9 with PID 10608 (D:\Loggers\target\classes started by DELL in D:\Loggers)
+2024-05-24T17:51:00.384+05:30 2024-05-24 17:51:00,384 INFO  c.l.d.LoggerDemoAppApplication:654 - [] No active profile set, falling back to 1 default profile: "default"
+ 10608 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T17:51:04.505+05:30 2024-05-24 17:51:04,505 INFO  o.s.b.w.e.t.TomcatWebServer:111 - [] Tomcat initialized with port 8080 (http)
+ 10608 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T17:51:04.549+05:30 2024-05-24 17:51:04,549 INFO  o.a.c.c.StandardService:173 - [] Starting service [Tomcat]
+ 10608 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T17:51:04.561+05:30 2024-05-24 17:51:04,561 INFO  o.a.c.c.StandardEngine:173 - [] Starting Servlet engine: [Apache Tomcat/10.1.24]
+ 10608 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-05-24T17:51:04.818+05:30 2024-05-24 17:51:04,818 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring embedded WebApplicationContext
+ 10608 --- [LoggerDemo_App] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T17:51:04.819+05:30 2024-05-24 17:51:04,819 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:296 - [] Root WebApplicationContext: initialization completed in 4265 ms
+ 10608 --- [LoggerDemo_App] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4265 ms
+2024-05-24T17:51:06.797+05:30 2024-05-24 17:51:06,797 INFO  o.s.b.w.e.t.TomcatWebServer:243 - [] Tomcat started on port 8080 (http) with context path '/'
+ 10608 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-05-24T17:51:06.890+05:30 2024-05-24 17:51:06,890 INFO  c.l.d.LoggerDemoAppApplication:56 - [] Started LoggerDemoAppApplication in 9.558 seconds (process running for 14.156)
+ 10608 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Started LoggerDemoAppApplication in 9.558 seconds (process running for 14.156)
+2024-05-24T17:51:45.099+05:30 2024-05-24 17:51:45,099 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 10608 --- [LoggerDemo_App] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T17:51:45.105+05:30 2024-05-24 17:51:45,105 INFO  o.s.w.s.DispatcherServlet:532 - [] Initializing Servlet 'dispatcherServlet'
+ 10608 --- [LoggerDemo_App] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T17:51:45.137+05:30 2024-05-24 17:51:45,137 INFO  o.s.w.s.DispatcherServlet:554 - [] Completed initialization in 18 ms
+ 10608 --- [LoggerDemo_App] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2024-05-24T17:52:18.727+05:30 2024-05-24 17:52:18,727 INFO  c.l.d.c.LoggingController:21 - [] [Info] Logging Controller Info
+ 10608 --- [LoggerDemo_App] [http-nio-8080-exec-4] c.l.demo.controller.LoggingController    : [Info] Logging Controller Info
+2024-05-24T17:52:18.732+05:30 2024-05-24 17:52:18,732 ERROR c.l.d.c.LoggingController:23 - [] [Error] logging Controller Error
+ 10608 --- [LoggerDemo_App] [http-nio-8080-exec-4] c.l.demo.controller.LoggingController    : [Error] logging Controller Error
+2024-05-24T17:52:18.733+05:30 2024-05-24 17:52:18,733 DEBUG c.l.d.c.LoggingController:24 - [] [Debug] Logging Controller Debug
+ 10608 --- [LoggerDemo_App] [http-nio-8080-exec-4] c.l.demo.controller.LoggingController    : [Debug] Logging Controller Debug
+2024-05-24T17:52:18.735+05:30 2024-05-24 17:52:18,735 WARN  c.l.d.c.LoggingController:25 - [] [WARN] Logging Controller WARN
+ 10608 --- [LoggerDemo_App] [http-nio-8080-exec-4] c.l.demo.controller.LoggingController    : [WARN] Logging Controller WARN
+2024-05-24T17:53:31.767+05:30 2024-05-24 17:53:31,767 INFO  c.l.d.c.LoggingController:21 - [] [Info] Logging Controller Info
+ 10608 --- [LoggerDemo_App] [http-nio-8080-exec-8] c.l.demo.controller.LoggingController    : [Info] Logging Controller Info
+2024-05-24T17:53:31.770+05:30 2024-05-24 17:53:31,770 ERROR c.l.d.c.LoggingController:23 - [] [Error] logging Controller Error
+ 10608 --- [LoggerDemo_App] [http-nio-8080-exec-8] c.l.demo.controller.LoggingController    : [Error] logging Controller Error
+2024-05-24T17:53:31.774+05:30 2024-05-24 17:53:31,774 DEBUG c.l.d.c.LoggingController:24 - [] [Debug] Logging Controller Debug
+ 10608 --- [LoggerDemo_App] [http-nio-8080-exec-8] c.l.demo.controller.LoggingController    : [Debug] Logging Controller Debug
+2024-05-24T17:53:31.777+05:30 2024-05-24 17:53:31,777 WARN  c.l.d.c.LoggingController:25 - [] [WARN] Logging Controller WARN
+ 10608 --- [LoggerDemo_App] [http-nio-8080-exec-8] c.l.demo.controller.LoggingController    : [WARN] Logging Controller WARN
+2024-05-24T17:55:39.456+05:30 2024-05-24 17:55:39,456 INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - [] Application shutdown requested.
+ 10608 --- [LoggerDemo_App] [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-24T17:55:49.013+05:30 2024-05-24 17:55:49,013 INFO  c.l.d.LoggerDemoAppApplication:50 - [] Starting LoggerDemoAppApplication using Java 17.0.9 with PID 5896 (D:\Loggers\target\classes started by DELL in D:\Loggers)
+ 5896 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Starting LoggerDemoAppApplication using Java 17.0.9 with PID 5896 (D:\Loggers\target\classes started by DELL in D:\Loggers)
+2024-05-24T17:55:49.025+05:30 2024-05-24 17:55:49,025 INFO  c.l.d.LoggerDemoAppApplication:654 - [] No active profile set, falling back to 1 default profile: "default"
+ 5896 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T17:55:52.204+05:30 2024-05-24 17:55:52,204 INFO  o.s.b.w.e.t.TomcatWebServer:111 - [] Tomcat initialized with port 8080 (http)
+ 5896 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T17:55:52.253+05:30 2024-05-24 17:55:52,253 INFO  o.a.c.c.StandardService:173 - [] Starting service [Tomcat]
+ 5896 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T17:55:52.258+05:30 2024-05-24 17:55:52,258 INFO  o.a.c.c.StandardEngine:173 - [] Starting Servlet engine: [Apache Tomcat/10.1.24]
+ 5896 --- [LoggerDemo_App] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-05-24T17:55:52.438+05:30 2024-05-24 17:55:52,438 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring embedded WebApplicationContext
+ 5896 --- [LoggerDemo_App] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T17:55:52.441+05:30 2024-05-24 17:55:52,441 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext:296 - [] Root WebApplicationContext: initialization completed in 3303 ms
+ 5896 --- [LoggerDemo_App] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3303 ms
+2024-05-24T17:55:53.641+05:30 2024-05-24 17:55:53,641 INFO  o.s.b.w.e.t.TomcatWebServer:243 - [] Tomcat started on port 8080 (http) with context path '/'
+ 5896 --- [LoggerDemo_App] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-05-24T17:55:53.668+05:30 2024-05-24 17:55:53,668 INFO  c.l.d.LoggerDemoAppApplication:56 - [] Started LoggerDemoAppApplication in 6.362 seconds (process running for 9.223)
+ 5896 --- [LoggerDemo_App] [main] c.logger.demo.LoggerDemoAppApplication   : Started LoggerDemoAppApplication in 6.362 seconds (process running for 9.223)
+2024-05-24T17:56:12.035+05:30 2024-05-24 17:56:12,035 INFO  o.a.c.c.C.[.[.[/]:173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 5896 --- [LoggerDemo_App] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T17:56:12.037+05:30 2024-05-24 17:56:12,037 INFO  o.s.w.s.DispatcherServlet:532 - [] Initializing Servlet 'dispatcherServlet'
+ 5896 --- [LoggerDemo_App] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T17:56:12.049+05:30 2024-05-24 17:56:12,049 INFO  o.s.w.s.DispatcherServlet:554 - [] Completed initialization in 7 ms
+ 5896 --- [LoggerDemo_App] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2024-05-24T18:02:23.733+05:30 2024-05-24 18:02:23,733 INFO  c.l.d.c.LoggingController:21 - [] [Info] Logging Controller Info
+ 5896 --- [LoggerDemo_App] [http-nio-8080-exec-5] c.l.demo.controller.LoggingController    : [Info] Logging Controller Info
+2024-05-24T18:02:23.823+05:30 2024-05-24 18:02:23,823 ERROR c.l.d.c.LoggingController:23 - [] [Error] logging Controller Error
+ 5896 --- [LoggerDemo_App] [http-nio-8080-exec-5] c.l.demo.controller.LoggingController    : [Error] logging Controller Error
+2024-05-24T18:02:23.827+05:30 2024-05-24 18:02:23,827 WARN  c.l.d.c.LoggingController:25 - [] [WARN] Logging Controller WARN
+ 5896 --- [LoggerDemo_App] [http-nio-8080-exec-5] c.l.demo.controller.LoggingController    : [WARN] Logging Controller WARN
+2024-05-24T18:04:18.895+05:30 2024-05-24 18:04:18,895 INFO  c.l.d.c.LoggingController:21 - [] [Info] Logging Controller Info
+ 5896 --- [LoggerDemo_App] [http-nio-8080-exec-7] c.l.demo.controller.LoggingController    : [Info] Logging Controller Info
+2024-05-24T18:04:18.899+05:30 2024-05-24 18:04:18,899 TRACE c.l.d.c.LoggingController:22 - [] [TRACE] logging Controller Trace
+ 5896 --- [LoggerDemo_App] [http-nio-8080-exec-7] c.l.demo.controller.LoggingController    : [TRACE] logging Controller Trace
+2024-05-24T18:04:18.902+05:30 2024-05-24 18:04:18,902 ERROR c.l.d.c.LoggingController:23 - [] [Error] logging Controller Error
+ 5896 --- [LoggerDemo_App] [http-nio-8080-exec-7] c.l.demo.controller.LoggingController    : [Error] logging Controller Error
+2024-05-24T18:04:18.906+05:30 2024-05-24 18:04:18,906 DEBUG c.l.d.c.LoggingController:24 - [] [Debug] Logging Controller Debug
+ 5896 --- [LoggerDemo_App] [http-nio-8080-exec-7] c.l.demo.controller.LoggingController    : [Debug] Logging Controller Debug
+2024-05-24T18:04:18.912+05:30 2024-05-24 18:04:18,912 WARN  c.l.d.c.LoggingController:25 - [] [WARN] Logging Controller WARN
+ 5896 --- [LoggerDemo_App] [http-nio-8080-exec-7] c.l.demo.controller.LoggingController    : [WARN] Logging Controller WARN

@@ -15,6 +15,10 @@ public class LogIController {
 	@Autowired
     private LogServiceI logService;
 
+//Enabling and disabling logging at runtime.
+    //urls - > http://localhost:8080/api/log/enable?loggerName=com.logger.demo.controller.MessageController&level=DEBUG
+    //urls -> http://localhost:8080/change-to-logLevel?Level=debug
+
 
     @PostMapping("/enable")
     public void enableLogLevel(@RequestParam String loggerName, @RequestParam String level) {

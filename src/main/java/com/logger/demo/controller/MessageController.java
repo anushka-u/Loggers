@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MessageController {
 
 	Logger logger = LoggerFactory.getLogger(MessageController.class);
-	
+	//Log levels
 //	@GetMapping("/message")
 	@GetMapping
 	public String log() {
